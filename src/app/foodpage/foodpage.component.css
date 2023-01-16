@@ -1,0 +1,41 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+
+}
+.container > *{
+    min-width: 20rem;
+    max-width: 40rem;
+}
+img{
+    border-radius: 3rem;
+    flex:1 0;
+    object-fit: cover;
+    height: 30rem;
+    margin: 1rem;
+}
+.origin
+{
+    flex:5;
+}
+.origin span{
+    border-radius: 2rem;
+    background-color: aliceblue;
+    color: rgb(124, 225, 0);
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+.details
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border-radius: 3rem;
+}
